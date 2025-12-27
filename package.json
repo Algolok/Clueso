@@ -1,0 +1,18 @@
+{
+  "name": "clueso-app",
+  "version": "1.0.0",
+  "description": "Clueso landing page served via Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "html-minifier": "^4.0.0",
+    "prettier": "^3.7.4",
+    "tailwindcss": "^4.1.18"
+  }
+}
